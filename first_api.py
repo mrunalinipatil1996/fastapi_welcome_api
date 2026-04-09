@@ -5,8 +5,8 @@ app=FastAPI()
 
 @app.get("/")
 def read_root():
-    return{"status: sucess","message: welcome to my first API !"}
+    return{"Status": "Sucess","message": "Welcome to my first API !"}
 
 @app.get("/name")
 def get_name():
-    return{"name:python developer","role:ai engineer"}
+    return{"Name":"Python developer","Role": "Ai engineer"}
